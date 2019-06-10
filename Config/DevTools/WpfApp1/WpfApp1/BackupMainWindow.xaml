@@ -1,0 +1,53 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="750">
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="FrameworkElement.Loaded" SourceName="dataGrid"/>
+    </Window.Triggers>
+   
+    <DockPanel Background="White" x:Name="Background">
+        <StackPanel DockPanel.Dock="Top">
+            <Label x:Name="Title" Content="SQL scripts will be executed in the order they appear in the grid" FontSize="14" HorizontalAlignment="Center">
+
+            </Label>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" DockPanel.Dock="Left">
+            <ToggleButton x:Name="Edit" Content="Edit"  Background="#FF4285F4" Foreground="#FFF7FAFF" Height="22" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10" Width="45" />
+            <Button x:Name="MoveUp" Content="^"  Background="#FF7077C3" Foreground="#FFEEE4E4" Height="25" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,10,10,5" Width="25" Visibility="Hidden"/>
+            <Button x:Name="MoveDown" Content="v"  Background="#FF7077C3" Foreground="#FFEEE4E4" Height="25" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="10,5,10,10" Width="25" Visibility="Hidden"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom" HorizontalAlignment="Right">
+            <Button x:Name="Reload" Content="Reload"  Background="#FF4285F4" Foreground="#FFF7FAFF" Height="22" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10" Width="45"/>
+            <Button x:Name="Run" Content="Run"  Background="#FF0F9D58" Foreground="#FFF7FAFF" Height="22" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10" Width="45"/>
+        </StackPanel>
+
+        <DataGrid x:Name="dataGrid" Margin="10" IsSynchronizedWithCurrentItem="True" IsReadOnly="True" AutoGenerateColumns="False" Background="#FFF2F2F2">
+
+            <DataGrid.Columns>
+                <DataGridTemplateColumn Header="Run" Width="30">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <CheckBox Name="CheckBox" HorizontalAlignment="Center" VerticalAlignment="Center" IsChecked="{Binding Path=ToRun, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Header="Order" Binding="{Binding RunOrder}" Width="50"/>
+                <DataGridTextColumn Header="Script Name" Binding="{Binding Name}" />
+                <DataGridTextColumn Header="Database" Binding="{Binding Database}" />
+                <DataGridTextColumn Header="Short Path" Binding="{Binding PartPath}"/>
+                <DataGridTextColumn Header="Full Path" Binding="{Binding FullName}" Width="*"/>
+            </DataGrid.Columns>
+            <DataGrid.RowDetailsTemplate>
+                <DataTemplate>
+                    <TextBox  Text="{Binding ErrorMessage}" Background="#FFEEA3A3" />
+                </DataTemplate>
+            </DataGrid.RowDetailsTemplate>
+
+        </DataGrid>
+    </DockPanel>
+</Window>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Recipe Config file
+Generated 05/23/2018 20:00:18
+v1.0
+ -->
+<RecipeConfig Name="Testing Worklists">
+  <CustomVariables>
+    <Parameter Name="CaseNumber" Value="NONE" />
+    <Parameter Name="Database" Value="TRAC" />
+    <Parameter Name="Location" Value="RAB Sous chef testing" />
+    <Parameter Name="ExcelBookName" Value="TRAC functional specifications Ventura.xlsx" />
+  </CustomVariables>
+  <HelpText Text="&#xD;&#xA;&#xD;&#xA;Excel Management&#xD;&#xA;Worklist Recipe" />
+  <RecipeIngredients>
+    <Ingredient pkScript="" ToRun="True" fullName="C:\Users\rboley\Desktop\git\RCWorkflow_Implementation\PIT_Tools\HT_SousChef\CookBooks\Testing Recipes\FAST worklists Testing\DELETE worklist and workgroups.sql" Name="DELETE worklist and workgroups.sql" PartPath="\DELETE worklist and workgroups.sql" Order="1" ScriptType="SQL" warnings="" ParentPartPath="\CookBooks\Testing Recipes\FAST worklists Testing\Testing Worklists.recipe" RecipePartPath="\CookBooks\Testing Recipes\FAST worklists Testing\Testing Worklists.recipe" OwningRecipe="Testing Worklists.recipe" />
+    <Ingredient pkScript="" ToRun="True" fullName="C:\Users\rboley\Desktop\git\RCWorkflow_Implementation\PIT_Tools\HT_SousChef\cookbooks\FAST\Installer\STAT\FAST Worklist Install.recipe" Name="FAST Worklist Install.recipe" PartPath="\cookbooks\FAST\Installer\STAT\FAST Worklist Install.recipe" Order="2" ScriptType="recipe" warnings="" ParentPartPath="\cookbooks\FAST\Installer\STAT\FAST Worklist Install.recipe" RecipePartPath="\cookbooks\FAST\Installer\STAT\FAST Worklist Install.recipe" OwningRecipe="FAST Worklist Install.recipe" />
+    <Ingredient pkScript="" ToRun="True" fullName="C:\Users\rboley\Desktop\git\RCWorkflow_Implementation\PIT_Tools\HT_SousChef\CookBooks\Testing Recipes\FAST worklists Testing\TEST Remove rows that will fail.sql" Name="TEST Remove rows that will fail.sql" PartPath="\TEST Remove rows that will fail.sql" Order="8" ScriptType="SQL" warnings="" ParentPartPath="\CookBooks\Testing Recipes\FAST worklists Testing\Testing Worklists.recipe" RecipePartPath="\CookBooks\Testing Recipes\FAST worklists Testing\Testing Worklists.recipe" OwningRecipe="Testing Worklists.recipe" />
+    <Ingredient pkScript="" ToRun="True" fullName="C:\Users\rboley\Desktop\git\RCWorkflow_Implementation\PIT_Tools\HT_SousChef\cookbooks\FAST\TRAC\Worklists\Worklists.recipe" Name="Worklists.recipe" PartPath="\cookbooks\FAST\TRAC\Worklists\Worklists.recipe" Order="11" ScriptType="recipe" warnings="" ParentPartPath="\cookbooks\FAST\TRAC\Worklists\Worklists.recipe" RecipePartPath="\cookbooks\FAST\TRAC\Worklists\Worklists.recipe" OwningRecipe="Worklists.recipe" />
+  </RecipeIngredients>
+</RecipeConfig>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Recipe Config file
+Generated 05/06/2018 13:37:25
+v1.0
+ -->
+<RecipeConfig Name="Interface_Tests">
+  <CustomVariables>
+    <Parameter Name="Database" Value="TRAC" />
+  </CustomVariables>
+  <RecipeIngredients>
+    <Ingredient pkScript="" ToRun="True" fullName="C:\Users\rboley\Desktop\git\RCWorkflow_Implementation\PIT_Tools\HT_SousChef\CookBooks\Interface_Tests\Succeed.ps1" Name="Succeed.ps1" PartPath="\Succeed.ps1" Order="1" ScriptType="Powershell" warnings="" ParentPartPath="\CookBooks\Interface_Tests\Interface_Tests.recipe" RecipePartPath="\CookBooks\Interface_Tests\Interface_Tests.recipe" OwningRecipe="Interface_Tests.recipe" />
+    <Ingredient pkScript="" ToRun="True" fullName="C:\Users\rboley\Desktop\git\RCWorkflow_Implementation\PIT_Tools\HT_SousChef\CookBooks\Interface_Tests\Succeed - Uncaptured output.ps1" Name="Succeed - Uncaptured output.ps1" PartPath="\Succeed - Uncaptured output.ps1" Order="2" ScriptType="Powershell" warnings="" ParentPartPath="\CookBooks\Interface_Tests\Interface_Tests.recipe" RecipePartPath="\CookBooks\Interface_Tests\Interface_Tests.recipe" OwningRecipe="Interface_Tests.recipe" />
+  </RecipeIngredients>
+</RecipeConfig>

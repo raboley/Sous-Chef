@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Recipe Config file
+Generated 05/07/2018 13:59:28
+v1.0
+ -->
+<RecipeConfig Name="TestOpen2">
+  <CustomVariables>
+    <Parameter Name="Database" Value="" />
+  </CustomVariables>
+  <RecipeIngredients />
+</RecipeConfig>

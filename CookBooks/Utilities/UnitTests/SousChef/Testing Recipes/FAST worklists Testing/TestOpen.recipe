@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Recipe Config file
+Generated 05/06/2018 18:58:04
+v1.0
+ -->
+<RecipeConfig Name="TestOpen">
+  <CustomVariables>
+    <Parameter Name="TRACDatabase" Value="TRAC" />
+    <Parameter Name="Database" Value="" />
+    <Parameter Name="ExcelBookName" Value="" />
+  </CustomVariables>
+  <RecipeIngredients>
+    <Ingredient pkScript="" ToRun="False" fullName="C:\Users\rboley\Desktop\git\RCWorkflow_Implementation\PIT_Tools\HT_SousChef\cookbooks\FAST - Installer\FAST STAT\FAST - Install Worklists.recipe" Name="FAST - Install Worklists.recipe" PartPath="\cookbooks\FAST - Installer\FAST STAT\FAST - Install Worklists.recipe" Order="1" ScriptType="recipe" warnings="" ParentPartPath="\cookbooks\FAST - Installer\FAST STAT\FAST - Install Worklists.recipe" RecipePartPath="\cookbooks\FAST - Installer\FAST STAT\FAST - Install Worklists.recipe" OwningRecipe="FAST - Install Worklists.recipe" />
+    <Ingredient pkScript="" ToRun="True" fullName="C:\Users\rboley\Desktop\git\RCWorkflow_Implementation\PIT_Tools\HT_SousChef\cookbooks\FAST\TRAC\Worklists\Worklists.recipe" Name="Worklists.recipe" PartPath="\cookbooks\FAST\TRAC\Worklists\Worklists.recipe" Order="9" ScriptType="recipe" warnings="" ParentPartPath="\cookbooks\FAST\TRAC\Worklists\Worklists.recipe" RecipePartPath="\cookbooks\FAST\TRAC\Worklists\Worklists.recipe" OwningRecipe="Worklists.recipe" />
+  </RecipeIngredients>
+</RecipeConfig>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Recipe Config file
+Generated 05/06/2018 09:33:27
+v1.0
+ -->
+<RecipeConfig Name="Test Missing">
+  <CustomVariables>
+    <Parameter Name="Database" Value="" />
+    <Parameter Name="ExcelBook" Value="TRAC Specs.xlsx" />
+  </CustomVariables>
+  <RecipeIngredients>
+    <Ingredient pkScript="" ToRun="True" fullName="C:\Russell\Tools\Git\RCWorkflow_Implementation\PIT_Tools\HT_SousChef\CookBooks\Testing Recipes\Succeed PS2.ps1" Name="Succeed PS2.ps1" PartPath="\Succeed PS2.ps1" Order="1" ScriptType="Powershell" warnings="" ParentPartPath="\CookBooks\Testing Recipes\Test Missing.recipe" RecipePartPath="\CookBooks\Testing Recipes\Test Missing.recipe" OwningRecipe="Test Missing.recipe" />
+    <Ingredient pkScript="" ToRun="True" fullName="C:\Russell\Tools\Git\RCWorkflow_Implementation\PIT_Tools\HT_SousChef\CookBooks\Testing Recipes\Succeed PS1.ps1" Name="Succeed PS1.ps1" PartPath="\Succeed PS1.ps1" Order="2" ScriptType="Powershell" warnings="" ParentPartPath="\CookBooks\Testing Recipes\Test Missing.recipe" RecipePartPath="\CookBooks\Testing Recipes\Test Missing.recipe" OwningRecipe="Test Missing.recipe" />
+    <Ingredient pkScript="" ToRun="True" fullName="C:\Russell\Tools\Git\RCWorkflow_Implementation\PIT_Tools\HT_SousChef\CookBooks\Testing Recipes\Deleting QUIC Billholds.sql" Name="Deleting QUIC Billholds.sql" PartPath="\Deleting QUIC Billholds.sql" Order="3" ScriptType="SQL" warnings="" ParentPartPath="\CookBooks\Testing Recipes\Test Missing.recipe" RecipePartPath="\CookBooks\Testing Recipes\Test Missing.recipe" OwningRecipe="Test Missing.recipe" />
+    <Ingredient pkScript="" ToRun="True" fullName="C:\Russell\Tools\Git\RCWorkflow_Implementation\PIT_Tools\HT_SousChef\CookBooks\Testing Recipes\Installing QUIC billholds.sql" Name="Installing QUIC billholds.sql" PartPath="\Installing QUIC billholds.sql" Order="4" ScriptType="SQL" warnings="" ParentPartPath="\CookBooks\Testing Recipes\Test Missing.recipe" RecipePartPath="\CookBooks\Testing Recipes\Test Missing.recipe" OwningRecipe="Test Missing.recipe" />
+    <Ingredient pkScript="" ToRun="True" fullName="C:\Russell\Tools\Git\RCWorkflow_Implementation\PIT_Tools\HT_SousChef\cookbooks\QUIC - Billholds\QUICBillholds.xml" Name="QUICBillholds.xml" PartPath="\cookbooks\QUIC - Billholds\QUICBillholds.xml" Order="5" ScriptType="recipe" warnings="" ParentPartPath="\cookbooks\QUIC - Billholds\QUICBillholds.xml" RecipePartPath="\cookbooks\QUIC - Billholds\QUICBillholds.xml" OwningRecipe="" />
+  </RecipeIngredients>
+</RecipeConfig>

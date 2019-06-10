@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Recipe Config file
+Generated 08/03/2018 15:51:04
+v1.0
+ -->
+<RecipeConfig Name="ConvertExcelToSQL">
+  <CustomVariables>
+    <Parameter Name="WorkSheetNames" Value="STAT_Workgroup_Specs, STAT_Worklist_Specs, QUIC_Billholds, Facilities, AreasAndResponsibilities, Activity_Category_Codes, Activity_Codes, Virtual_Lists, representatives, ONTRACRepViewableWLs, FileCrosswalk" />
+    <Parameter Name="ExelBookFolder" Value="C:\Users\rboley\Huron Consulting Group\RC Workflow - Ventura Documents" />
+    <Parameter Name="Schema" Value="SPEC" />
+    <Parameter Name="ExcelBookName" Value="TRAC functional specifications Ventura.xlsx" />
+    <Parameter Name="Database" Value="TRAC" />
+  </CustomVariables>
+  <HelpText Text="%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%&#xD;&#xA;%%%% Convert Excel to SQL %%%%&#xD;&#xA;%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;This recipe takes an excel book at a path and name specifed and converts it to a sql table with Spec_[SheetName] as the tablename.  It will maintain all columns and data in the tab.&#xD;&#xA;&#xD;&#xA;%%%% Assumptions&#xD;&#xA;This assumes that OLDBC excel library is installed where the recipe is being run.  &#xD;&#xA;&#xD;&#xA;%%%% Variables &#xD;&#xA;ExcelBookFolder: The folder where your excel books are located.  Must be on the server, or a place the server can reach.&#xD;&#xA;EXAMPLE:  I:\DailyDataFiles\PIT_Tools\SharePointSync\Specs\Huron Consulting Group\RC Workflow - Ventura Documents&#xD;&#xA;&#xD;&#xA;ExcelBookName: The name of the excel book to be converted to SQL&#xD;&#xA;EXAMPLE: TRAC Functional Specifications Ventura.xlsx&#xD;&#xA;" />
+  <RecipeIngredients>
+    <Ingredient pkScript="" ToRun="True" fullName="C:\Users\rboley\Desktop\git\RCWorkflow_Implementation\PIT_Tools\HT_SousChef\CookBooks\Utilities\Excel Management\Convert ExcelBook to CSV.ps1" Name="Convert ExcelBook to CSV.ps1" PartPath="\Convert ExcelBook to CSV.ps1" Order="1" ScriptType="Powershell" warnings="" ParentPartPath="\CookBooks\Utilities\Excel Management\ConvertExcelToSQL.recipe" RecipePartPath="\CookBooks\Utilities\Excel Management\ConvertExcelToSQL.recipe" OwningRecipe="convertExcel_OneDrive.recipe" />
+    <Ingredient pkScript="" ToRun="True" fullName="C:\Users\rboley\Desktop\git\RCWorkflow_Implementation\PIT_Tools\HT_SousChef\CookBooks\Utilities\Excel Management\Convert CSVs to SQL Tables.ps1" Name="Convert CSVs to SQL Tables.ps1" PartPath="\Convert CSVs to SQL Tables.ps1" Order="2" ScriptType="Powershell" warnings="" ParentPartPath="\CookBooks\Utilities\Excel Management\ConvertExcelToSQL.recipe" RecipePartPath="\CookBooks\Utilities\Excel Management\ConvertExcelToSQL.recipe" OwningRecipe="convertExcel_OneDrive.recipe" />
+  </RecipeIngredients>
+</RecipeConfig>

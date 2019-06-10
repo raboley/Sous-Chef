@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Recipe Config file
+Generated 05/06/2018 19:25:58
+v1.0
+ -->
+<RecipeConfig Name="WorklistTesting">
+  <CustomVariables>
+    <Parameter Name="TRACDatabase" Value="TRAC" />
+    <Parameter Name="Database" Value="TRAC" />
+    <Parameter Name="Location" Value="test" />
+    <Parameter Name="ExcelBookName" Value="TRAC Functional Specifications_v3.xlsx" />
+    <Parameter Name="CaseNumber" Value="123456" />
+  </CustomVariables>
+  <RecipeIngredients>
+    <Ingredient pkScript="" ToRun="False" fullName="C:\Users\rboley\Desktop\git\RCWorkflow_Implementation\PIT_Tools\HT_SousChef\cookbooks\FAST - Installer\FAST STAT\FAST - Install Worklists.recipe" Name="FAST - Install Worklists.recipe" PartPath="\cookbooks\FAST - Installer\FAST STAT\FAST - Install Worklists.recipe" Order="1" ScriptType="recipe" warnings="" ParentPartPath="\cookbooks\FAST - Installer\FAST STAT\FAST - Install Worklists.recipe" RecipePartPath="\cookbooks\FAST - Installer\FAST STAT\FAST - Install Worklists.recipe" OwningRecipe="FAST - Install Worklists.recipe" />
+    <Ingredient pkScript="" ToRun="False" fullName="C:\Users\rboley\Desktop\git\RCWorkflow_Implementation\PIT_Tools\HT_SousChef\cookbooks\FAST\TRAC\Worklists\Worklists.recipe" Name="Worklists.recipe" PartPath="\cookbooks\FAST\TRAC\Worklists\Worklists.recipe" Order="9" ScriptType="recipe" warnings="" ParentPartPath="\cookbooks\FAST\TRAC\Worklists\Worklists.recipe" RecipePartPath="\cookbooks\FAST\TRAC\Worklists\Worklists.recipe" OwningRecipe="Worklists.recipe" />
+    <Ingredient pkScript="" ToRun="True" fullName="C:\Users\rboley\Desktop\git\RCWorkflow_Implementation\PIT_Tools\HT_SousChef\CookBooks\Testing Recipes\FAST worklists Testing\Execute Workgroup Codes.sql" Name="Execute Workgroup Codes.sql" PartPath="\Execute Workgroup Codes.sql" Order="10" ScriptType="SQL" warnings="" ParentPartPath="\CookBooks\Testing Recipes\FAST worklists Testing\WorklistTesting.recipe" RecipePartPath="\CookBooks\Testing Recipes\FAST worklists Testing\WorklistTesting.recipe" OwningRecipe="WorklistTesting.recipe" />
+  </RecipeIngredients>
+</RecipeConfig>

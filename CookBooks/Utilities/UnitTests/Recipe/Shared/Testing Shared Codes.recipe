@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Recipe Config file
+Generated 05/23/2018 18:38:08
+v1.0
+ -->
+<RecipeConfig Name="Testing Shared Codes">
+  <CustomVariables>
+    <Parameter Name="CaseNumber" Value="NONE" />
+    <Parameter Name="Database" Value="TRAC" />
+    <Parameter Name="Location" Value="Inserting Shared" />
+    <Parameter Name="ExcelBookName" Value="RCPA Shared Specs Baseline.xlsx" />
+  </CustomVariables>
+  <HelpText Text="&#xD;&#xA;Excel Management&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Excel Management" />
+  <RecipeIngredients>
+    <Ingredient pkScript="" ToRun="True" fullName="C:\Users\rboley\Desktop\git\RCWorkflow_Implementation\PIT_Tools\HT_SousChef\cookbooks\FAST\Installer\TRAC Shared\Install TRAC shared Codes.recipe" Name="Install TRAC shared Codes.recipe" PartPath="\cookbooks\FAST\Installer\TRAC Shared\Install TRAC shared Codes.recipe" Order="1" ScriptType="recipe" warnings="" ParentPartPath="\cookbooks\FAST\Installer\TRAC Shared\Install TRAC shared Codes.recipe" RecipePartPath="\cookbooks\FAST\Installer\TRAC Shared\Install TRAC shared Codes.recipe" OwningRecipe="Install TRAC shared Codes.recipe" />
+    <Ingredient pkScript="" ToRun="True" fullName="C:\Users\rboley\Desktop\git\RCWorkflow_Implementation\PIT_Tools\HT_SousChef\CookBooks\FAST\TRAC\Shared\TRAC_Shared.recipe" Name="TRAC_Shared.recipe" PartPath="\CookBooks\FAST\TRAC\Shared\TRAC_Shared.recipe" Order="6" ScriptType="recipe" warnings="" ParentPartPath="\CookBooks\FAST\TRAC\Shared\TRAC_Shared.recipe" RecipePartPath="\CookBooks\FAST\TRAC\Shared\TRAC_Shared.recipe" OwningRecipe="TRAC_Shared.recipe" />
+  </RecipeIngredients>
+</RecipeConfig>

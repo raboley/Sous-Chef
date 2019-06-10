@@ -1,0 +1,15 @@
+{
+    "clientName": "Client Name",
+    "copyright": {
+        "notice": "Use and distribution prohibited except through written agreement with Huron. Trademarks used in this document are registered or unregistered trademarks of Huron or its licensors.",
+        "year": "2010-2017 Huron Consulting Services LLC"
+    },
+
+    "debugMode": false,
+    "growlMessagesEnabled": false,
+    "panelMessagesEnabled": true,
+    "infiniteScrollBlockSize": 100,
+    "webApiServer": "MPVCHCAWEBP1.HCANALYTICS.COM\\Huron.Worklists.WebAPI",
+    "webApiPort": "",
+    "loginUrl": "https://MPVCHCAWEBP1.HCANALYTICS.COM/WebUI/Security%20Pages/Login.aspx"
+}

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Recipe Config file
+Generated 05/22/2018 19:37:56
+v1.0
+ -->
+<RecipeConfig Name="Testing Shared codes.order">
+  <CustomVariables>
+    <Parameter Name="Database" Value="" />
+  </CustomVariables>
+  <HelpText Text="" />
+  <RecipeIngredients />
+</RecipeConfig>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Recipe Config file
+Generated 05/31/2018 12:10:47
+v1.0
+ -->
+<RecipeConfig Name="FriendlyURL.xml">
+  <CustomVariables>
+    <Parameter Name="ServerNameURL" Value="MPVCHCAWAU1.HCANALYTICS.COM" />
+    <Parameter Name="FriendlyURL" Value="vchcaworkflowUAT.huronconsultinggroup.com" />
+    <Parameter Name="DBServerNameURL" Value="MPVCHCADBU1.HCANALYTICS.COM" />
+  </CustomVariables>
+  <HelpText Text="" />
+  <RecipeIngredients>
+    <Ingredient pkScript="" ToRun="True" fullName="C:\Program Files\Huron Consulting Group\PIT_Tools\HT_SousChef\CookBooks\Web Server Setup\Configure Friendly URL\Backup Web Configs.ps1" Name="Backup Web Configs.ps1" PartPath="\Backup Web Configs.ps1" Order="1" ScriptType="Powershell" warnings="" ParentPartPath="\CookBooks\Web Server Setup\Configure Friendly URL\FriendlyURL.xml" RecipePartPath="\CookBooks\Web Server Setup\Configure Friendly URL\FriendlyURL.xml" OwningRecipe="" />
+    <Ingredient pkScript="" ToRun="True" fullName="C:\Program Files\Huron Consulting Group\PIT_Tools\HT_SousChef\CookBooks\Web Server Setup\Configure Friendly URL\Update Web Config Files.ps1" Name="Update Web Config Files.ps1" PartPath="\Update Web Config Files.ps1" Order="2" ScriptType="Powershell" warnings="" ParentPartPath="\CookBooks\Web Server Setup\Configure Friendly URL\FriendlyURL.xml" RecipePartPath="\CookBooks\Web Server Setup\Configure Friendly URL\FriendlyURL.xml" OwningRecipe="" />
+    <Ingredient pkScript="" ToRun="False" fullName="C:\Program Files\Huron Consulting Group\PIT_Tools\HT_SousChef\CookBooks\Web Server Setup\Configure Friendly URL\Restore Backup Configs.ps1" Name="Restore Backup Configs.ps1" PartPath="\Restore Backup Configs.ps1" Order="3" ScriptType="Powershell" warnings="" ParentPartPath="\CookBooks\Web Server Setup\Configure Friendly URL\FriendlyURL.xml" RecipePartPath="\CookBooks\Web Server Setup\Configure Friendly URL\FriendlyURL.xml" OwningRecipe="" />
+  </RecipeIngredients>
+</RecipeConfig>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Recipe Config file
+Generated 07/05/2018 10:30:40
+v1.0
+ -->
+<RecipeConfig Name="FirstTraining">
+  <CustomVariables>
+    <Parameter Name="FolderPath" Value="C:\temp" />
+  </CustomVariables>
+  <HelpText Text="" />
+  <RecipeIngredients>
+    <Ingredient pkScript="" ToRun="True" fullName="C:\Russell\Tools\Git\RCWorkflow_Implementation\PIT_Tools\HT_SousChef\CookBooks\Training\GettingStarted\CopyPasteTraining.ps1" Name="CopyPasteTraining.ps1" PartPath="\CopyPasteTraining.ps1" Order="1" ScriptType="Powershell" warnings="" ParentPartPath="C:\Russell\Tools\Git\RCWorkflow_Implementation\PIT_Tools\HT_SousChef\CookBooks\Training\GettingStarted\FirstTraining.recipe" RecipePartPath="C:\Russell\Tools\Git\RCWorkflow_Implementation\PIT_Tools\HT_SousChef\CookBooks\Training\GettingStarted\FirstTraining.recipe" OwningRecipe="FirstTraining.recipe" />
+  </RecipeIngredients>
+</RecipeConfig>

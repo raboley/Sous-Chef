@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Recipe Config file
+Generated 04/28/2018 16:14:50
+v1.0
+ -->
+<RecipeConfig Name="Testing Saving4">
+  <CustomVariables>
+    <Parameter Name="TRACDatabase" Value="TRAC" />
+    <Parameter Name="MyFavoriteColor" Value="Green" />
+    <Parameter Name="RCADatabase" Value="RCAnalytics" />
+    <Parameter Name="ONTRACDatabase" Value="ONTRAC" />
+    <Parameter Name="Test" Value="HelloWorld" />
+  </CustomVariables>
+  <RecipeIngredients>
+    <Ingredient pkScript="" ToRun="True" fullName="C:\Russell\Tools\Git\RCWorkflow_Implementation\PIT_Tools\HT_SousChef\CookBooks\Testing Recipes\Succeed PS2.ps1" Name="Succeed PS1.ps1" PartPath="\Succeed PS2.ps1" Order="1" ScriptType="Powershell" warnings="" />
+    <Ingredient pkScript="" ToRun="True" fullName="C:\Russell\Tools\Git\RCWorkflow_Implementation\PIT_Tools\HT_SousChef\DefaultKitchen\TeachingRecipe.recipe" Name="TeachingRecipe.recipe" PartPath="\DefaultKitchen\TeachingRecipe.recipe" Order="2" ScriptType="recipe" warnings="" />
+    <Ingredient pkScript="" ToRun="True" fullName="C:\Russell\Tools\Git\RCWorkflow_Implementation\PIT_Tools\HT_SousChef\CookBooks\Testing Recipes\Succeed PS2.ps1" Name="Succeed PS2.ps1" PartPath="\Succeed PS2.ps1" Order="8" ScriptType="Powershell" warnings="" />
+  </RecipeIngredients>
+</RecipeConfig>

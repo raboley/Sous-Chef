@@ -1,0 +1,7 @@
+
+
+DELETE FROM QUIC_Billholds
+DELETE FROM QUIC_RequestDeficiencies
+DELETE FROM QUIC_BillholdDeficiencies
+DELETE FROM QUIC_DeficiencyCodes
+DELETE FROM QUIC_BillholdAssignments

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Recipe Config file
+Generated 06/07/2018 10:34:45
+v1.0
+ -->
+<RecipeConfig Name="Restore Test Database">
+  <CustomVariables>
+    <Parameter Name="Database" Value="" />
+  </CustomVariables>
+  <HelpText Text="%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%&#xD;&#xA;%%%% Restore Test Database  %%%%%%%%%%%%%&#xD;&#xA;%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%&#xD;&#xA;&#xD;&#xA;this will run the restore job for your test database.  &#xD;&#xA;&#xD;&#xA;%%%% Assumptions&#xD;&#xA;A restore job must be setup for the Database variable setup below&#xD;&#xA;&#xD;&#xA;%%%% Variables&#xD;&#xA;&#xD;&#xA;Database: the name of the test database&#xD;&#xA;EXAMPLE: TRAC_TEST1" />
+  <RecipeIngredients>
+    <Ingredient pkScript="" ToRun="True" fullName="C:\Russell\Tools\Git\RCWorkflow_Implementation\PIT_Tools\HT_SousChef\CookBooks\Utilities\SQL Jobs\Restore Test Database.sql" Name="Restore Test Database.sql" PartPath="\Restore Test Database.sql" Order="1" ScriptType="SQL" warnings="" ParentPartPath="\CookBooks\Utilities\SQL Jobs\Restore Test Database.recipe" RecipePartPath="\CookBooks\Utilities\SQL Jobs\Restore Test Database.recipe" OwningRecipe="Restore Test Database.recipe" />
+  </RecipeIngredients>
+</RecipeConfig>

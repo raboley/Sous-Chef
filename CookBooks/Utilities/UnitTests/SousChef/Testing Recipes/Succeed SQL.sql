@@ -1,0 +1,1 @@
+PRINT 'This should succeed'

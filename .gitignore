@@ -1,0 +1,4 @@
+##### don't want to put user settings in source control
+Config/settings/*
+*/CSVs/*
+Kitchens/*
